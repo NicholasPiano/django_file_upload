@@ -28,15 +28,19 @@ Python version: 3.8.3
 
 `~$ python3.8 -m venv .`
 
-3. Install dependencies
+3. Activate virtualenv
+
+`~$ source ./bin/activate`
+
+4. Install dependencies
 
 `~$ pip install -r requirements.txt`
 
-4. Run migrations
+5. Run migrations
 
 `~$ python manage.py migrate`
 
-5. Run application
+6. Run application
 
 `~$ python manage.py runserver`
 
